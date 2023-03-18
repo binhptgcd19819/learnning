@@ -1,0 +1,32 @@
+.containter{
+    width: 699px;
+    display: inline-block;
+}
+.block{
+    width: 347px;
+    display: inline-block;
+  
+}
+h3{
+    font-size: 20px;
+
+}
+p{
+    display: table-cell;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.cover--content{
+    display:flex;
+    overflow: hidden;
+    font-size: 20px;
+}
+span{
+    font-size: 10px;
+}
+.list--content{
+    background-color: #EAF8D2;
+}
