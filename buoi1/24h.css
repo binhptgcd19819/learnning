@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 699px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.block{
+    width: 347px;
+    display: inline-block;
+}
+h3{
+    font-size: 16px;
+}
+p{
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+span{
+    font-size: 10px;
+    color: #777;
+    line-height: 1.5;
+}
+.content{
+    width: 100%;
+
+}
+.content-right{
+    display: block;
+    overflow: hidden;
+}
+.list-content{
+    font-size: 13px;
+}
+.content img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right:20px ;
+}
+img.advertisement{
+    width: 699px;
+    height: 250px;
+}
