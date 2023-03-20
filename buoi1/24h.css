@@ -2,10 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
+.cover-container{
+    width: 1004px;
+}
 .container{
     width: 699px;
     display: inline-block;
     padding-bottom: 10px;
+    float: left;
 }
 .block{
     width: 347px;
@@ -44,4 +48,38 @@ span{
 img.advertisement{
     width: 699px;
     height: 250px;
+}
+
+.container-right{
+    width: 300px;
+    float: right;
+    display: inline-block;
+}
+.container-right h2{
+    color: #78b43d;
+    line-height: 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.block-right{
+    display: inline-block;
+    padding-bottom: 10px;
+
+}
+.block-right img{
+   width: 100px;
+   height: 75px;
+   float:left;  
+   padding-right: 10px;
+   border-radius: 1px;  
+   boder: 1px;
+   border-bottom:#777;
+}
+.block-right p{
+    font-size: 13px;
+    font-weight: 500px;
+    line-height: 15px;
+    color: #252525;
+    display: block;
+    overflow: hidden;
 }
