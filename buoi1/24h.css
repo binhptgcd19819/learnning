@@ -20,17 +20,14 @@ h3{
 }
 p{
     font-size: 14px;
-    line-height: 1.5;
-
 }
 span{
     font-size: 10px;
     color: #777;
-    line-height: 1.5;
 }
 .content{
     width: 100%;
-
+    display: inline-block;
 }
 .content-right{
     display: block;
@@ -57,29 +54,128 @@ img.advertisement{
 }
 .container-right h2{
     color: #78b43d;
-    line-height: 30px;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 18px;
+    border-bottom: 2px solid #78b43d;
+    text-transform: uppercase;
 }
-.block-right{
-    display: inline-block;
-    padding-bottom: 10px;
 
+.container-right{
+    float: right;
+    width: 300;
 }
-.block-right img{
-   width: 100px;
-   height: 75px;
-   float:left;  
-   padding-right: 10px;
-   border-radius: 1px;  
-   boder: 1px;
-   border-bottom:#777;
+
+.tttt{
+    display: inline-block;
+    width: 100%;
+    margin-top:20px;
 }
-.block-right p{
-    font-size: 13px;
-    font-weight: 500px;
-    line-height: 15px;
-    color: #252525;
+.tttt ul{
+    width: 100%;
+    display: inline-block;
+}
+.tttt ul li{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.tttt ul li img{
+    width: 100px;
+    height: 75px;
+    float: left;
+    margin-right: 20px;
+}
+.tttt ul li p{
     display: block;
     overflow: hidden;
+    font-size: 14px;
 }
+
+.block-table{
+    background: #fafafa;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.ttck{
+    padding-bottom: 10px;
+}
+.block-table ul{
+    display: inline-block;
+    list-style: none;
+    padding-right: 16px;
+    line-height: 1.8;
+    font-size: 14px;
+}
+.ck ul{
+    list-style: none;
+    text-align: center;
+}
+.ck ul li{
+        display: inline-block;
+        padding-right: 25px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+.pcdo{
+    border: 1px solid #dde4ec;
+}
+.pcdo img{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.pcdo-content{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.pcdo-content ul li{
+    line-height: 1.5;
+    font-size: 14px;
+}
+.drcpd{
+    border: 1px solid #dde4ec;
+    background-color: #d2577e;
+    border-radius: 8px 8px 0 0;
+}
+.drcpd h3{
+    padding: 20px;
+    text-align: center;
+}
+
+.drcpd-content ul{
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+}
+.drcpd-content ul li{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.drcpd-content ul li img{
+    width: 100px;
+    height: 75px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+.drcpd-content ul li p{
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+}
+.drcpd-content-container{
+    background-color: white;
+    padding-left: 10px;
+}
+.drcpd-contentUnder ul{
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+.drcpd-contentUnder ul li{
+    font-size: 14px;
+   
+}
+
