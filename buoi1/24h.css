@@ -15,11 +15,13 @@
     width: 347px;
     display: inline-block;
 }
-h3{
+.block h3{
     font-size: 16px;
+    padding-bottom: 10px;
 }
-p{
+.block p{
     font-size: 14px;
+    line-height: 1;
 }
 span{
     font-size: 10px;
@@ -67,6 +69,9 @@ span{
 .video-right ul{
     width: 100%;  
     display: inline-block;
+  width: 277px;
+  height: 369.03px;
+  overflow: scroll;
 }
 .video-right ul li{
     display: inline-block;
@@ -85,6 +90,8 @@ span{
     overflow: hidden;
 }
 .content-table{
+    padding-bottom: 10px;
+
 
 }
 .table{
@@ -105,10 +112,42 @@ span{
 
 }
 
-
-
-
-
+.content-full-left{
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content-left-title{
+    width: 100%;
+}
+.content-left-title img{
+    width: 120px;
+    height: 90px;
+    float: left;
+    padding: 0px 20px 0px 0px;
+}
+.content-left-title h3{
+    font-size: 16px;
+}
+.content-left-title p{
+    font-size: 14px;
+    display: block;
+    overflow: hidden;
+}
+.content-left-title span{
+    font-size: 10px;
+}
+.content-full-left ul{
+    padding: 10px;
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+}
+.content-left-title ul li{
+    display: block;
+    overflow: hidden;
+}
 
 .content{
     width: 100%;
@@ -120,6 +159,10 @@ span{
 }
 .list-content{
     font-size: 13px;
+}
+.list-content ul li{
+    padding-left: 5px;
+    line-height: 1.5;
 }
 .content img{
     width: 100px;
@@ -147,7 +190,7 @@ img.advertisement{
 
 .container-right{
     float: right;
-    width: 300;
+    width: 300px;
 }
 
 .tttt{
@@ -263,4 +306,36 @@ img.advertisement{
     font-size: 14px;
    
 }
+.ttdn{
+    width: 1004px;
+}
+.ttdn h3{
+    color: #ef7930;
+}
+.ttdn-container {
+    background-color: #fff1d9;
+    border-top: #ef7930 solid 2.5px;
+}
+.ttdn-container ul{
+    display: inline-block;
+    width: 100%;
+}
+
+.ttdn-container ul li{
+    display: inline-block;
+    width: 215px;
+    padding: 8px 5px;
+}
+
+.ttdn-container ul li img{
+    float: left;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.ttdn-container ul li p{
+   font-size: 14px;
+}
+
+
 
