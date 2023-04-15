@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.lifestyle-container{
+    max-width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+.lifestyle{
+    display: inline-block;
+    width: 100%;
+}
+.lifestyle-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.lifestyle-content{
+    display: inline-block;
+    width: 100%;
+}
+.lifestyle-content-left{
+    width: 70%;
+    margin-top: 25px;
+    float: left;
+    border-right:1px solid #ccc;
+
+}
+.lifestyle-content-left ul{
+    width: 100%;
+    display: inline-block;
+}
+.lifestyle-content-left ul li{
+    width: 36%;
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+ .lifestyle-content-left ul li img {
+    width: 100%;
+ }
+ .lifestyle-content-left ul li:first-child{
+    width: 60%;
+    margin: 0px;
+ }
+ .lifestyle-content-left ul li h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h3.lifestyle-firstchild {
+    font-size: 24px;
+
+}
+.lifestyle-content-left ul li p {
+    color: #444;
+    font-size: 16px;
+}
+.lifestyle-content-right{
+    float: right;
+    width: 28%;
+    margin-top: 10px;
+}
+.lifestyle-content-right ul{
+    display: inline-block;
+    width: 100%;
+}
+
+.lifestyle-content-right ul li {
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.lifestyle-content-right ul li img{
+    float: right;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+
+}
+.lifestyle-content-right ul li p{
+    font-size:16px ;
+    margin-top: 10px;
+    font-weight: bolder;    
+}
+@media only screen and (max-width: 991px) {
+    .lifestyle-content-right{
+        width: 100%;
+        
+    }
+    .lifestyle-content-right ul {
+        width: 100%
+    }
+    .lifestyle-content-right ul li:nth-child(2),
+    .lifestyle-content-right ul li:nth-child(4){
+        padding-right: 20px;
+        float: right;
+        width: 40%;
+    }
+    .lifestyle-content-left{
+        width: 100%;
+    }
+
+}
+@media  only screen and (max-width:767px) {
+    .lifestyle-content ul{
+        width: 100%;
+    }
+    .lifestyle-content-right ul li {
+        width: 100%;
+        float: left;
+    }
+    .lifestyle-content-right ul li:nth-child(2),
+    .lifestyle-content-right ul li:nth-child(4){
+        width: 100%;
+        float: left;
+        padding: 0px;
+    }
+    .lifestyle-content-left ul li{
+        width: 49%;
+        margin: 0px;
+    }
+    .lifestyle-content-left ul li:nth-child(2){
+        padding-right: 1%;
+    }
+    .lifestyle-content-left ul li:first-child{
+        width: 100%;
+        padding-bottom: 10px;
+        padding-right:0px ;
+    }
+
+}

@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.news{
+    display: block;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.news-container{
+    display: inline-block;
+    width: 100%;
+}
+.news-left{
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+    
+}
+.news-left ul{
+    display: inline-block;
+    width: 100%;
+}
+
+.news-left ul li{
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    list-style: none;
+    float: left;
+
+}
+.news-left ul li img{
+    float: left;
+    width: 30%;
+    padding-right: 15px;
+    
+}
+.news-left ul li h3{
+  font-size: 24px;
+  margin-bottom: 10px;  
+}
+.news-left ul li p{
+    color: #888;
+    font-size: 16px;
+}
+.news-right{
+    border: 1px solid #ccc;
+    float: right;
+    width: 300px;
+    margin-top: 20px;
+}
+.news-right h3{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 22px;
+}
+.news-right ul {
+    display: inline-block;
+    width: 100%;
+}
+.news-right ul li{
+    list-style: none;
+    float: left;
+    width: 250px;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.news-right li img{
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;   
+    float: left;
+    padding-right: 10px;
+    padding-left: 20px;
+    object-fit: cover;
+}
+.news-right ul li span{
+    color: #666;
+    font-size: 12px;
+
+}.news-right ul li p{
+    font-weight: bolder;
+    font-size: 16px;
+}
+.podcast{
+    float: right;
+    width: 300px;
+    margin-top: 20px;   
+    background-color: #2F2F3F;
+
+}
+.podcast h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    color: white;
+    
+}
+.podcast-content{
+    
+}
+.podcast-img{
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.content-podcast {
+    width: 250px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.podcast ul{
+    display: inline-block;
+    width: 100%;
+
+}
+.podcast ul li {
+    width: 250px;
+    margin-left: 20px;
+    float: left;
+    list-style: none;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-Top : 1px solid #ccc;
+}
+
+.podcast li img{
+    width: 72px;
+    height: 49px;
+    border-radius: 3px;   
+    float: left;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.podcast ul li p{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 1022px){
+    .news-right, .podcast {
+        display: none;
+    }
+    .news-left{
+        width: 100%;
+    }
+}

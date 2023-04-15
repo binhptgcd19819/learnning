@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
 .containter{
     width: 699px;
     display: inline-block;

@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1100px;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.content-left{
+    width: 28%;
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+}
+.content-left ul{
+    display: inline-block;
+}
+
+.content-left ul li{
+    list-style: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom:1px solid #ccc;
+    width: 100%;
+    float: left;
+}
+.content-left ul li img{
+    float: left;
+    height: 80px;
+    width: 120px;
+    padding-right: 10px;
+}
+.content-left ul li p{
+    font-weight: bolder;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.content-right {
+    float: right;
+    width: 70%;
+    padding-top: 15px;
+    display: inline-block;
+}
+.content-right ul li{ 
+    width: 33%;
+    float: left;
+    list-style: none;
+}
+.content-right ul li:first-child{
+    width: calc(66.5% - 20px);
+    float: left;
+    padding-right: 20px;  
+}
+
+.content-right ul li:first-child h2{
+    padding-top: 15px;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.content-right ul li:first-child h3{
+    display: block;
+    font-size: 18px;
+    color: #444;
+    line-height: 1.7;
+}
+.title-content li{
+    margin-left: 10px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.content-right ul li img{
+    width: 100%;
+    height: 100%;
+}
+.content-right ul li p{
+    margin-top: 15px;
+    color: #333;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1023px) {
+    .content-right{
+        float: left;
+        width: 58%;
+
+    }
+    .content-right ul li:first-child{
+        width: 98%;
+        padding-right: 2%;
+    }
+    .content-right ul li:first-child h3,.title-content{
+        display: none;
+    }
+    .content-right ul li:nth-child(2){
+        padding-right: 10px;
+        width: 45%;
+        height: 160px;
+    }
+    .content-right ul li:nth-child(3){
+        width: 45%;
+        height: 160px;
+        padding-left: 10px;
+    }
+    .content-left{
+        float: right;
+        width: 39%;
+    }
+} 
+@media only screen and (max-width: 720px) {
+    .content-right{
+        width: 100%;
+        float: left;
+    }
+    .content-left{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .content-left ul{
+        width: 100%;
+    };
+
+}
